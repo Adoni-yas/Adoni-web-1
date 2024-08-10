@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoniyas Abebe - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .contact, .section {
+            background: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            animation: slideIn 1.5s ease-out;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill, .project {
+            flex: 1 1 45%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin: 10px;
+            background: #fff;
+            transition: transform 0.3s;
+        }
+        .skill:hover, .project:hover {
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Adoni web</h1>
+    </header>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! My name is Adoniyas Abebe. I have a passion for boxing, video editing, and coding. I love to combine my technical skills with my creative interests to create exciting and engaging projects.</p>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Boxing</h3>
+                    <p>Experienced in boxing with a focus on technique and fitness.</p>
+                </div>
+                <div class="skill">
+                    <h3>Video Editing</h3>
+                    <p>Proficient in video editing using various software like Adobe Premiere Pro and Final capCut Pro.</p>
+                </div>
+                <div class="skill">
+                    <h3>Coding</h3>
+                    <p>Skilled in various programming languages including JavaScript, Python, and HTML/CSS.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Developed a dynamic website using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Edited a series of promotional videos for a local boxing gym.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact for more Information</h2>
+            <p>Feel free to reach out to me bitchs:</p>
+            <div class="contact">
+                <p>Phone: 0972999664</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
